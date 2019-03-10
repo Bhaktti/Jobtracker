@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "561466108595",
+    "firebase_url": "https://jobtracker-40ea5.firebaseio.com",
+    "project_id": "jobtracker-40ea5",
+    "storage_bucket": "jobtracker-40ea5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561466108595:android:a79a4b685f404bfa",
+        "android_client_info": {
+          "package_name": "android.jobtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561466108595-v7ovafspfmoqk6oj8ektroq2qd9jg7qf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB91DwJZeh2oed_UngI7tPZPbq92akSL4Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
