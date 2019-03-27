@@ -14,7 +14,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button signOut;
+    private Button signOut, StartTrackingJobs;
 
     private ProgressBar progressBar;
     private FirebaseAuth.AuthStateListener authListener;
@@ -61,6 +61,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 signOut();
 
+            }
+        });
+
+        StartTrackingJobs= (Button) findViewById(R.id.startTrackingJobs);
+        StartTrackingJobs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, MapsActivity.class));
+                finish();
             }
         });
 
